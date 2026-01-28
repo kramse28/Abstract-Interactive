@@ -41,7 +41,7 @@
     display: inline-block;
     background: linear-gradient(rgb(252, 237, 208),rgb(254, 142, 38));
     width: 200px;
-    height: 375px;
+    height: 350px;
     vertical-align: top;
     padding: 10px;
     text-align: end;
@@ -49,7 +49,7 @@
     margin: 20px;
 }
 .circle{
-    background-color:rgb(160, 170, 211);
+    background-color:rgb(187, 187, 252);
     position: fixed;
     width: 190px;
     height: 190px;
@@ -90,7 +90,7 @@
     background: rgb(249, 171, 112);
     position: absolute;
     right:520px;
-    top: 500px;
+    top: 450px;
     padding: 20px;
 }
 .sixth-box > p{
@@ -101,8 +101,8 @@
 .float-box{
     width:200px;
     height:300px;
-    background:linear-gradient(rgb(160, 160, 250),rgb(79, 60, 184));
-    float: right;
+    background:linear-gradient(rgb(230, 230, 255),rgb(129, 111, 228));
+    position: relative;
     border-style: solid;
     border-color: rgb(220, 108, 67);
     border-width: 10px;
