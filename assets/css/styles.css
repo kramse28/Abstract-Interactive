@@ -1,84 +1,110 @@
-*{margin:0%; font-size:30px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+*{margin:0%; background: aliceblue;}
 .main-box{
     display: inline-block;
-    background-color:rgb(234, 173, 193);
+    background: radial-gradient(rgb(181, 178, 237),rgb(48, 37, 108));
     width: 350px;
     height: 800px;
     vertical-align: top;
     padding: 20px;
-    margin-top: 20px;
+    margin-top: 30px;
+    border-style:solid;
+    border-width:15px;
+    border-radius:30px;
+    border-color:rgb(235, 168, 114);
 }
 .second-box{
     /*display: inline-block;*/
-    position: absolute;
+    position: fixed;
     right: 40px;
     bottom:40px;
-    background-color:rgb(113, 156, 236);
+    background-color:rgb(118, 148, 219);
     width: 200px;
-    height: 500px;
+    height: 200px;
+    vertical-align: top;
+    padding: 20px;
+    border-color: rgb(71, 71, 123);
+    border-width: 30px;
+    border-style:solid;
+}
+.second-box2{
+    display:inline-block;
+    position: absolute;
+    right: 20px;
+    top: 300px;
+    background:linear-gradient(rgb(78, 78, 180),rgb(254, 199, 153),rgb(221, 221, 252));
+    width: 400px;
+    height: 600px;
     vertical-align: top;
     padding: 20px;
 }
 .third-box{
     display: inline-block;
-    background-color:rgb(229, 181, 59);
+    background: linear-gradient(rgb(252, 237, 208),rgb(254, 142, 38));
     width: 200px;
-    height: 370px;
+    height: 375px;
     vertical-align: top;
-    padding: 20px;
+    padding: 10px;
+    text-align: end;
+    align-content: relative;
+    margin: 20px;
 }
 .circle{
-    background-color:rgb(160, 211, 160);
+    background-color:rgb(160, 170, 211);
     position: fixed;
-    width: 200px;
-    height: 200px;
+    width: 190px;
+    height: 190px;
     border-radius: 100%;
     align-content: center;
     text-align: center;
-}
-.circle > p{
-    font-size:50px;
-    color:white;
+    border-style: dashed;
+    border-width: 5px;
+    border-color:rgb(72, 76, 114);
 }
 .fourth-box{
     position: relative;
     display: inline-block;
-    background-color: rgb(193, 158, 224);
+    background-color: rgb(158, 171, 224);
     vertical-align: top;
     width: 400px;
     height: 200px;
     vertical-align: top;
     padding: 20px;
+    align-content: center;
 }
 .fifth-box{
     position: absolute;
     right: 10px;
     bottom: 10px;
-    background-color: rgb(255, 143, 102);
+    background-color: rgb(255, 159, 124);
     width: 100px;
     height: 165px;
     padding: 20px;
+    border-style: double;
+    border-radius: 10px;
+    border-width: 10px;
+    border-color:rgb(255, 122, 55);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.sixth-box{
+    width: 500px;
+    height: 400px;
+    background: rgb(249, 171, 112);
+    position: absolute;
+    right:520px;
+    top: 500px;
+    padding: 20px;
+}
+.sixth-box > p{
+    background: none;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.float-box{
+    width:200px;
+    height:300px;
+    background:linear-gradient(rgb(160, 160, 250),rgb(79, 60, 184));
+    float: right;
+    border-style: solid;
+    border-color: rgb(220, 108, 67);
+    border-width: 10px;
+    border-radius: 40%;
+}
